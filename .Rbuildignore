@@ -1,0 +1,8 @@
+^renv\.lock$
+^.*\.Rproj$
+^\.git$
+^\.gitignore$
+^renv$
+^\.Rprofile$
+^tests/validation$
+^parameter_audit\.html$

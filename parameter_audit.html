@@ -1,0 +1,45 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+<title>Parameter Audit: huncMarkovDMSS</title>
+<style>body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;max-width:1300px;margin:40px auto;padding:0 20px;}
+h1{border-bottom:2px solid #2563eb;padding-bottom:8px;}
+.summary{display:flex;gap:24px;margin:16px 0 24px;}
+.stat{padding:12px 20px;border-radius:8px;font-size:14px;}
+.stat-green{background:#dcfce7;color:#166534;}.stat-red{background:#fee2e2;color:#991b1b;}
+table{border-collapse:collapse;width:100%;font-size:12px;}
+th{background:#1e3a5f;color:white;padding:10px 12px;text-align:left;}
+td{padding:7px 11px;border-bottom:1px solid #e5e7eb;vertical-align:top;}
+tr:hover{background:#f8fafc;}code{background:#f1f5f9;padding:2px 5px;border-radius:3px;font-size:11px;}
+small{color:#6b7280;}</style></head><body>
+<h1>Parameter Audit: huncMarkovDMSS</h1>
+<p>DMSS Multi-Comparator Model &mdash; 5 arms, 23 PSA parameters. Fictional illustrative model.</p>
+<div class="summary">
+<div class="stat stat-green"><strong>23</strong> parameters with reported SE (PSA-sampled)</div>
+<div class="stat stat-red"><strong>0</strong> parameters fixed in PSA</div>
+</div>
+<table><thead><tr><th>Parameter</th><th>Display Name</th><th>Default</th><th>SE</th>
+<th>Category</th><th>Type</th><th>Distribution</th><th>Status / Notes</th>
+</tr></thead><tbody><tr><td><code>p_grade1_cardivex</code></td><td>Prob: Grade I Response (Cardivex)</td><td style='text-align:right;'>0.26</td><td style='text-align:right;'>0.03571</td><td>Response</td><td>probability</td><td>beta</td><td><span style="color:#16a34a;">&#9679; Reported</span><br><small>95% CI 0.19-0.33</small></td></tr>
+<tr><td><code>p_grade1_soc</code></td><td>Prob: Grade I Response (SoC)</td><td style='text-align:right;'>0.09</td><td style='text-align:right;'>0.0102</td><td>Response</td><td>probability</td><td>beta</td><td><span style="color:#16a34a;">&#9679; Reported</span><br><small>95% CI 0.07-0.11</small></td></tr>
+<tr><td><code>p_grade1_zonapride</code></td><td>Prob: Grade I Response (Zonapride)</td><td style='text-align:right;'>0.3</td><td style='text-align:right;'>0.04082</td><td>Response</td><td>probability</td><td>beta</td><td><span style="color:#16a34a;">&#9679; Reported</span><br><small>95% CI 0.22-0.38</small></td></tr>
+<tr><td><code>p_grade1_septoplasty</code></td><td>Prob: Grade I Response (Septoplasty)</td><td style='text-align:right;'>0.72</td><td style='text-align:right;'>0.09184</td><td>Response</td><td>probability</td><td>beta</td><td><span style="color:#16a34a;">&#9679; Reported</span><br><small>95% CI 0.54-0.90</small></td></tr>
+<tr><td><code>p_grade1_ablatherm</code></td><td>Prob: Grade I Response (Ablatherm)</td><td style='text-align:right;'>0.72</td><td style='text-align:right;'>0.09184</td><td>Response</td><td>probability</td><td>beta</td><td><span style="color:#16a34a;">&#9679; Reported</span><br><small>95% CI 0.54-0.90</small></td></tr>
+<tr><td><code>u_grade1_cardivex</code></td><td>Utility: Grade I (Cardivex)</td><td style='text-align:right;'>0.93</td><td style='text-align:right;'>0.08929</td><td>Utilities - Cardivex</td><td>utility</td><td>utility</td><td><span style="color:#16a34a;">&#9679; Reported</span><br><small>1-Gamma; 95% CI 0.64-0.99</small></td></tr>
+<tr><td><code>u_grade2_cardivex</code></td><td>Utility: Grade II (Cardivex)</td><td style='text-align:right;'>0.85</td><td style='text-align:right;'>0.08163</td><td>Utilities - Cardivex</td><td>utility</td><td>utility</td><td><span style="color:#16a34a;">&#9679; Reported</span><br><small>1-Gamma; 95% CI 0.64-0.96</small></td></tr>
+<tr><td><code>u_grade3_cardivex</code></td><td>Utility: Grade III (Cardivex)</td><td style='text-align:right;'>0.69</td><td style='text-align:right;'>0.07143</td><td>Utilities - Cardivex</td><td>utility</td><td>utility</td><td><span style="color:#16a34a;">&#9679; Reported</span><br><small>1-Gamma; 95% CI 0.54-0.82</small></td></tr>
+<tr><td><code>u_grade1_soc</code></td><td>Utility: Grade I (SoC)</td><td style='text-align:right;'>0.93</td><td style='text-align:right;'>0.08929</td><td>Utilities - SoC</td><td>utility</td><td>utility</td><td><span style="color:#16a34a;">&#9679; Reported</span><br><small>1-Gamma; 95% CI 0.64-0.99</small></td></tr>
+<tr><td><code>u_grade2_soc</code></td><td>Utility: Grade II (SoC)</td><td style='text-align:right;'>0.83</td><td style='text-align:right;'>0.08163</td><td>Utilities - SoC</td><td>utility</td><td>utility</td><td><span style="color:#16a34a;">&#9679; Reported</span><br><small>1-Gamma; 95% CI 0.63-0.95</small></td></tr>
+<tr><td><code>u_grade3_soc</code></td><td>Utility: Grade III (SoC)</td><td style='text-align:right;'>0.68</td><td style='text-align:right;'>0.06888</td><td>Utilities - SoC</td><td>utility</td><td>utility</td><td><span style="color:#16a34a;">&#9679; Reported</span><br><small>1-Gamma; 95% CI 0.54-0.81</small></td></tr>
+<tr><td><code>u_grade1_other</code></td><td>Utility: Grade I (Zonapride/Surgical)</td><td style='text-align:right;'>0.93</td><td style='text-align:right;'>0.08929</td><td>Utilities - Other</td><td>utility</td><td>utility</td><td><span style="color:#16a34a;">&#9679; Reported</span><br><small>1-Gamma; 95% CI 0.64-0.99</small></td></tr>
+<tr><td><code>u_grade2_other</code></td><td>Utility: Grade II (Zonapride/Surgical)</td><td style='text-align:right;'>0.84</td><td style='text-align:right;'>0.08418</td><td>Utilities - Other</td><td>utility</td><td>utility</td><td><span style="color:#16a34a;">&#9679; Reported</span><br><small>1-Gamma; 95% CI 0.63-0.96</small></td></tr>
+<tr><td><code>u_grade3_other</code></td><td>Utility: Grade III (Zonapride/Surgical)</td><td style='text-align:right;'>0.69</td><td style='text-align:right;'>0.07143</td><td>Utilities - Other</td><td>utility</td><td>utility</td><td><span style="color:#16a34a;">&#9679; Reported</span><br><small>1-Gamma; 95% CI 0.54-0.82</small></td></tr>
+<tr><td><code>cost_grade1_cycle</code></td><td>State Cost: Grade I (per cycle, CAD)</td><td style='text-align:right;'>680</td><td style='text-align:right;'>68.11224</td><td>Costs - State</td><td>cost</td><td>gamma</td><td><span style="color:#16a34a;">&#9679; Reported</span><br><small>95% CI 553-820</small></td></tr>
+<tr><td><code>cost_grade2_cycle</code></td><td>State Cost: Grade II (per cycle, CAD)</td><td style='text-align:right;'>1,850</td><td style='text-align:right;'>184.949</td><td>Costs - State</td><td>cost</td><td>gamma</td><td><span style="color:#16a34a;">&#9679; Reported</span><br><small>95% CI 1505-2230</small></td></tr>
+<tr><td><code>cost_grade3_cycle</code></td><td>State Cost: Grade III (per cycle, CAD)</td><td style='text-align:right;'>2,560</td><td style='text-align:right;'>255.8673</td><td>Costs - State</td><td>cost</td><td>gamma</td><td><span style="color:#16a34a;">&#9679; Reported</span><br><small>95% CI 2083-3086</small></td></tr>
+<tr><td><code>cost_cardivex_cycle</code></td><td>Drug Cost: Cardivex (per cycle, CAD)</td><td style='text-align:right;'>4,923</td><td style='text-align:right;'>491.3265</td><td>Costs - Drug</td><td>cost</td><td>gamma</td><td><span style="color:#16a34a;">&#9679; Reported</span><br><small>95% CI 4006-5932</small></td></tr>
+<tr><td><code>cost_zonapride_cycle</code></td><td>Drug Cost: Zonapride (per cycle, CAD)</td><td style='text-align:right;'>380</td><td style='text-align:right;'>38.0102</td><td>Costs - Drug</td><td>cost</td><td>gamma</td><td><span style="color:#16a34a;">&#9679; Reported</span><br><small>95% CI 309-458</small></td></tr>
+<tr><td><code>pct_betablock_cardivex</code></td><td>Pct: Beta-Blocker Use (Cardivex arm)</td><td style='text-align:right;'>0.72</td><td style='text-align:right;'>0.09184</td><td>Background Meds</td><td>probability</td><td>beta</td><td><span style="color:#16a34a;">&#9679; Reported</span><br><small>95% CI 0.54-0.90</small></td></tr>
+<tr><td><code>pct_betablock_soc</code></td><td>Pct: Beta-Blocker Use (SoC/other arms)</td><td style='text-align:right;'>0.7</td><td style='text-align:right;'>0.08673</td><td>Background Meds</td><td>probability</td><td>beta</td><td><span style="color:#16a34a;">&#9679; Reported</span><br><small>95% CI 0.53-0.87</small></td></tr>
+<tr><td><code>pct_calcblock_cardivex</code></td><td>Pct: CCB Use (Cardivex arm)</td><td style='text-align:right;'>0.18</td><td style='text-align:right;'>0.02296</td><td>Background Meds</td><td>probability</td><td>beta</td><td><span style="color:#16a34a;">&#9679; Reported</span><br><small>95% CI 0.14-0.23</small></td></tr>
+<tr><td><code>pct_calcblock_soc</code></td><td>Pct: CCB Use (SoC/other arms)</td><td style='text-align:right;'>0.14</td><td style='text-align:right;'>0.01786</td><td>Background Meds</td><td>probability</td><td>beta</td><td><span style="color:#16a34a;">&#9679; Reported</span><br><small>95% CI 0.10-0.17</small></td></tr></tbody></table>
+<hr><p style="font-size:12px;color:#9ca3af;">Generated 2026-05-11 09:32 &bull; huncMarkovDMSS v0.1.0</p>
+</body></html>

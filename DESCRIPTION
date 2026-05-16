@@ -1,0 +1,36 @@
+Package: huncMarkovDMSS
+Title: Diffuse Mucosal Sclerosis Syndrome Cost-Effectiveness Model
+Version: 0.1.0
+Authors@R: c(
+    person("Ian", "Cromwell",
+           email = "healthyuncertainty@gmail.com",
+           role = c("aut", "cre"))
+  )
+Description: An interactive multi-comparator Markov cohort model for
+    cost-effectiveness analysis of Cardivex, Zonapride, Septoplasty, and
+    Ablatherm versus Standard of Care in patients with Diffuse Mucosal
+    Sclerosis Syndrome (DMSS). Implements a 4-state population proportion
+    model with frozen grade distributions, 4-week cycles, age-dependent
+    background mortality, perioperative mortality for surgical arms,
+    probabilistic sensitivity analysis across 23 parameters, and an
+    interactive Shiny application. Developed as a fictional illustrative
+    example for the HEPackageR skill validation exercise.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: false
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends:
+    R (>= 4.1.0)
+Imports:
+    stats
+Suggests:
+    shiny,
+    ggplot2,
+    dplyr,
+    DT,
+    scales,
+    dampack,
+    testthat (>= 3.0.0)
+URL: https://github.com/HealthyUncertainty/huncMarkovDMSS
+BugReports: https://github.com/HealthyUncertainty/huncMarkovDMSS/issues
