@@ -23,14 +23,15 @@ RoxygenNote: 7.3.3
 Depends:
     R (>= 4.1.0)
 Imports:
-    stats
+    stats,
+    ggplot2,
+    scales,
+    dplyr
 Suggests:
     shiny,
-    ggplot2,
-    dplyr,
     DT,
-    scales,
     dampack,
+    gridExtra,
     testthat (>= 3.0.0)
 URL: https://github.com/HealthyUncertainty/huncMarkovDMSS
 BugReports: https://github.com/HealthyUncertainty/huncMarkovDMSS/issues
